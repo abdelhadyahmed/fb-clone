@@ -14,12 +14,12 @@ function Header() {
         <div className="header">
             <div className="header__left">
                 <img src="https://img.icons8.com/fluent/240/000000/facebook-new.png" alt=""/>
-                <div className="Header__input">
+                <div className="header__input">
                     <SearchIcon />
                     <input type="text" />
                 </div>
             </div>
-            <div className="header__middle">
+            <div className="header-center">
                 <div className="header__option">
                     <HomeIcon fontSize="large" />
                 </div>
