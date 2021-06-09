@@ -16,11 +16,11 @@ function Header() {
                 <img src="https://img.icons8.com/fluent/240/000000/facebook-new.png" alt=""/>
                 <div className="header__input">
                     <SearchIcon />
-                    <input type="text" />
+                    <input placeholder="Search Facebook" type="text" />
                 </div>
             </div>
             <div className="header-center">
-                <div className="header__option">
+                <div className="header__option header__option--active">
                     <HomeIcon fontSize="large" />
                 </div>
                 <div className="header__option">
@@ -42,7 +42,6 @@ function Header() {
                     <Avatar />
                     <h4>Hady Ahmed</h4>
                 </div>
-
                 <IconButton>
                     <AddIcon />
                 </IconButton>
